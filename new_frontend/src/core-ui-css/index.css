@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .anihover {
+      @apply transition-all duration-300 hover:scale-110 hover:z-10
+    }
+
+    .anihover2 {
+      @apply transition-all duration-300 hover:scale-105 hover:z-10
+  }
+
+  .blockappear {
+    @apply animate-appear   
+    
+  }
+}
